@@ -12,6 +12,12 @@ resource "aws_instance" "tf_instance" {
   tags = {
     Name = "first-tf-instance"
   }
+  user_data = <<-EOF
+              #!/bin/bash
+              apt-get update -y
+              apt-get install -y nginx
+              echo "Hello, World from Terraform!" > /var/www/html/index.nginx-debian.html
+              EOF 
 }
 
 resource "aws_security_group" "tf_security_group" {
