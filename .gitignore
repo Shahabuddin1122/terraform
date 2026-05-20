@@ -1,0 +1,6 @@
+aws-provider/id_rsa
+aws-provider/id_rsa.pub
+aws-provider/.terraform/
+aws-provider/.terraform/terraform.lock.hcl
+aws-provider/terraform.tfstate
+aws-provider/terraform.tfstate.backup
