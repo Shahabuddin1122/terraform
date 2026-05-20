@@ -1,0 +1,5 @@
+region        = "us-east-1"
+access_key    = ""
+secret_key    = ""
+ami_id        = "ami-091138d0f0d41ff90"
+instance_type = "t3.micro"
