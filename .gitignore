@@ -1,6 +1,11 @@
 aws-provider/id_rsa
 aws-provider/id_rsa.pub
-aws-provider/.terraform/
+aws-provider/.terraform/providers/
 aws-provider/.terraform/terraform.lock.hcl
 aws-provider/terraform.tfstate
 aws-provider/terraform.tfstate.backup
+
+aws/ecr/.terraform/
+aws/ecr/terraform.lock.hcl
+aws/ecr/terraform.tfstate
+aws/ecr/terraform.tfstate.backup
