@@ -9,3 +9,9 @@ aws/ecr/.terraform/
 aws/ecr/terraform.lock.hcl
 aws/ecr/terraform.tfstate
 aws/ecr/terraform.tfstate.backup
+
+existing-infra/environments/dev/.terraform/providers/
+existing-infra/environments/dev/terraform.lock.hcl
+existing-infra/environments/dev/terraform.tfstate
+existing-infra/environments/dev/terraform.tfstate.backup
+existing-infra/environments/dev/terraform.tfvars
